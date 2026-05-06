@@ -1,0 +1,77 @@
+# IDEs and Code Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.env.local
+.env.*.local
+
+# Node modules and npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+
+# Java/Maven
+target/
+.classpath
+.project
+*.jar
+*.class
+*.log
+
+# Build directories
+dist/
+build/
+
+# Environment variables
+.env
+.env.production
+.env.development
+
+# IDE
+.settings/
+*.iml
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+
+# Backend specific
+/backend/target/
+/backend/.mvn/
+/backend/mvnw
+/backend/mvnw.cmd
+
+# Database files
+*.db
+*.sqlite
+h2.mv.db
+
+# Local development
+local/
+temp/
+cache/
+
+# Production builds
+dist/
+build/
+out/
+
+# Node
+package-lock.json
+yarn.lock
